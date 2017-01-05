@@ -1,5 +1,6 @@
 function [eig_val_now,x, i]=inverse_method(A,tol)
-%Power method for computing eigenvalues
+%Inverse Power method for computing eigenvalues
+%Author: Grace Lee <dil15@uclive.ac.nz>
 %% Obtain starting matrix (y)
 %row_col = size(A); % Returns 1 x 2 matrix with dimensions of A
 %n = row_col(1);
